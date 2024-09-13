@@ -1,12 +1,8 @@
 .col-md-5 img {
     width: 100%;
 }
-
-p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-}
 .col-md-7 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: small;
 }
+
