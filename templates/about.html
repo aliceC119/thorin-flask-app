@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>{{ page_title }}</h>
+
+    {% for number in list_of_numbers %}
+        <p>{{ number }}</p>
+    {% endfor %}
+
+    <h2>{{ page_title }}</h2>
     <p>
         The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest
         in recapturing his long lost family inheritance. (Thorin's grandfather had been the King under the Mountain when
@@ -42,7 +47,7 @@
         </div>
     </div>
 
-    <div class="row featurette"></div>
+    <div class="row featurette">
         <div class="col-md-7">
             <h3>Óin</h3>
             <p>
@@ -72,7 +77,7 @@
         </div>
     </div>
 
-    <div class="row featurette"></div>
+    <div class="row featurette">
         <div class="col-md-7">
             <h3>Balin</h3>
             <p>
@@ -103,7 +108,7 @@
         </div>
     </div>
 
-    <div class="row featurette"></div>
+    <div class="row featurette">
         <div class="col-md-7">
             <h3>Ori</h3>
             <p>
@@ -133,7 +138,7 @@
         </div>
     </div>
 
-    <div class="row featurette"></div>
+    <div class="row featurette">
         <div class="col-md-7">
             <h3>Nori</h3>
             <p>Nori, as was his brother Dori, was a capable flutist, and both seem to have carried their flutes with
@@ -162,7 +167,7 @@
         </div>
     </div>
 
-    <div class="row featurette"></div>
+    <div class="row featurette">
         <div class="col-md-7">
             <h3>Bofur</h3>
             <p>
@@ -192,7 +197,7 @@
         </div>
     </div>
 
-    <div class="row featurette"></div>
+    <div class="row featurette">
         <div class="col-md-7">
             <h3>Dandalf</h3>
             <p>
